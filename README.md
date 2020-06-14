@@ -147,9 +147,12 @@ The Kubernetes test contains one more option than the VM test.
 +-- util.sh                         --> Util functions for general use.
 ```
 
-## TODO's and nice feature ideas
+## TODO's
 - Change JMeter's Dockerfile when the new patch is released
+- Maybe a nice deep dive introduction to the Cloud architecture?
+- Add a contributing guideline, pull request and issue template.
+
+## Feature ideas
 - Develop a distributed JMeter test as described in [this](https://jmeter.apache.org/usermanual/remote-test.html) article
 - Develop different dataset modes
 - Automatic deployment of the dashboard
-- Maybe a nice deep dive introduction to the Cloud architecture?
