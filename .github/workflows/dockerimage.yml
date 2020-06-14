@@ -1,0 +1,27 @@
+name: Build and publish Automatic Neo4j Load Tester
+
+on:
+  push:
+    branches:
+      - master
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - uses: actions/checkout@master
+    - name: Get current time
+      uses: 1466587594/get-current-time@v1
+      id: current-time
+      with:
+        format: YYYY-MM-DD
+    - name: Build and publish
+      uses: elgohr/Publish-Docker-Github-Action@master
+      with:
+        name: michaelweidmann/automated-neo4j-load-tester
+        username: ${{ secrets.DOCKER_USERNAME }}
+        password: ${{ secrets.DOCKER_PASSWORD }}
+        tags: ${{ steps.get_version.outputs.VERSION }}
