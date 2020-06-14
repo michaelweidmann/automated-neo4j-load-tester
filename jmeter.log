@@ -1,0 +1,20 @@
+2020-06-05 01:53:03,138 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2020-06-05 01:53:03,172 INFO o.a.j.JMeter: Loading user properties from: /mnt/c/SCM/SCM/renew/docker/jmeter/bin/user.properties
+2020-06-05 01:53:03,172 INFO o.a.j.JMeter: Loading system properties from: /mnt/c/SCM/SCM/renew/docker/jmeter/bin/system.properties
+2020-06-05 01:53:03,174 INFO o.a.j.JMeter: Copyright (c) 1998-2020 The Apache Software Foundation
+2020-06-05 01:53:03,174 INFO o.a.j.JMeter: Version 5.3-SNAPSHOT 0926a85
+2020-06-05 01:53:03,174 INFO o.a.j.JMeter: java.version=11.0.7
+2020-06-05 01:53:03,174 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2020-06-05 01:53:03,174 INFO o.a.j.JMeter: os.name=Linux
+2020-06-05 01:53:03,174 INFO o.a.j.JMeter: os.arch=amd64
+2020-06-05 01:53:03,174 INFO o.a.j.JMeter: os.version=4.4.0-18362-Microsoft
+2020-06-05 01:53:03,174 INFO o.a.j.JMeter: file.encoding=UTF-8
+2020-06-05 01:53:03,174 INFO o.a.j.JMeter: java.awt.headless=true
+2020-06-05 01:53:03,175 INFO o.a.j.JMeter: Max memory     =1073741824
+2020-06-05 01:53:03,175 INFO o.a.j.JMeter: Available Processors =8
+2020-06-05 01:53:03,185 INFO o.a.j.JMeter: Default Locale=English (EN)
+2020-06-05 01:53:03,186 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2020-06-05 01:53:03,186 INFO o.a.j.JMeter: JMeterHome=/mnt/c/SCM/SCM/renew/docker/jmeter
+2020-06-05 01:53:03,186 INFO o.a.j.JMeter: user.dir  =/mnt/c/SCM/SCM/renew
+2020-06-05 01:53:03,186 INFO o.a.j.JMeter: PWD       =/mnt/c/SCM/SCM/renew
+2020-06-05 01:53:03,188 INFO o.a.j.JMeter: IP: 127.0.1.1 Name: MC00BB2112 FullName: MC00BB2112.spirit21.de
