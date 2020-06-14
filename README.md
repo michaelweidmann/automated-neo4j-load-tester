@@ -17,7 +17,7 @@ Make sure you have installed all of the following prerequisites on your developm
 * Kubectl - [Download & Install kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/). Needed to interact with a Kubernetes cluster.
 * Helm - [Download & Install Helm](https://helm.sh/docs/intro/install/). Needed to deploy easily applications to a Kubernetes cluster.
 * GCloud SDK - [Download & Install GCloud](https://cloud.google.com/sdk/install). Commandline tool to easily interact with the Google Cloud API. Python is required for this tool.
-* (Optionally) Docker - [Download & Install Docker](https://docs.docker.com/get-docker/). Needed if a non-Unix machine is used. Otherwise optional.
+* Docker - [Download & Install Docker](https://docs.docker.com/get-docker/). Needed if a non-Unix machine is used. Otherwise optional.
 
 ### How to use it
 
@@ -25,7 +25,7 @@ There are general two ways to use this application:
 1. With Docker in a container
 2. Natively on your machine
 
-All approaches are described now.
+Every approach are described now.
 
 #### Usage with Docker
 
@@ -66,8 +66,9 @@ If this tool is used natively then you can specify the test type as follows:
 ```
 
 `<TEST_TYPE>` can be replaced with `vm`, `k8s` or `test`.
+You can also use environment variables which are described later.
 
-If docker is used you need to use an environment variable:
+If docker is used you need to use environment variables:
 
 ```bash
 docker run --rm -it --name automated-neo4j-load-tester -e TEST_TYPE=<TEST_TYPE> michaelweidmann/automated-neo4j-load-tester
@@ -147,10 +148,12 @@ The Kubernetes test contains one more option than the VM test.
 +-- util.sh                         --> Util functions for general use.
 ```
 
+## Contributing
+See the [contribution guidelines for this project](./CONTRIBUTING.md).
+
 ## TODO's
 - Change JMeter's Dockerfile when the new patch is released
 - Maybe a nice deep dive introduction to the Cloud architecture?
-- Add a contributing guideline, pull request and issue template.
 
 ## Feature ideas
 - Develop a distributed JMeter test as described in [this](https://jmeter.apache.org/usermanual/remote-test.html) article
