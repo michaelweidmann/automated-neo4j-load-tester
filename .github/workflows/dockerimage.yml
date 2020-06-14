@@ -24,4 +24,4 @@ jobs:
         name: michaelweidmann/automated-neo4j-load-tester
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
-        tags: ${{ steps.get_version.outputs.VERSION }}
+        tags: ${{ steps.current-time.outputs.formattedTime }}
