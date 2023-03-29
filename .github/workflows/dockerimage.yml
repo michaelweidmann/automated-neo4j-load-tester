@@ -19,7 +19,7 @@ jobs:
       with:
         format: YYYY-MM-DD
     - name: Build and publish
-      uses: elgohr/Publish-Docker-Github-Action@master
+      uses: elgohr/Publish-Docker-Github-Action@v5
       with:
         name: michaelweidmann/automated-neo4j-load-tester
         username: ${{ secrets.DOCKER_USERNAME }}
